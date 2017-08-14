@@ -101,9 +101,9 @@ a random choice from [banana, banana, orange, orange, orange]
   - *guilds*     List guilds
 #### Inventory:
   - *inventory*  Check your or another users inventory. `rp![inventory|i|inv] [member]`
-    - *give*           Give items ({item}x{#}) to a member; ie: ;give @Henry#6174 pokeballx3 `rp!inventory give <other> [items...]`
-    - *giveitem*       Give an item to a person (Not out of your inventory, must be Bot Moderator) `rp!inventory giveitem <item> <num> [members...]`
-    - *takeitem*       Remove an item from a person's inventory (Must be Bot Moderator) `rp!inventory [takeitem|take] <item> <num> [members...]`
+    - *give*           Give items ({item}x{#}) to a member; ie: ;give @Henry#6174 pokeballx3 `rp!giveitem <member> <item>x<num>`
+    - *giveitem*       Give an item to a person (Not out of your inventory, must be Bot Moderator) `rp!giveitem <item> <num> [members...]`
+    - *takeitem*       Remove an item from a person's inventory (Must be Bot Moderator) `rp![takeitem|take] <item> <num> [members...]`
 #### Misc:
   - *donate*     Donation information
   - *feedback*   Give me some feedback on the bot `rp!feedback <feedback>`
