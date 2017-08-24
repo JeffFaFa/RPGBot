@@ -30,8 +30,8 @@ Made by Henry#6174
   - *bid*        Place a bid on the current bidding item in the channel
   - *economy*    Check your or another users balance `rp![economy|bal|balance|eco|e] [member]
 `
-    - *givemoney*   Give the members money (Moderators) `rp!economy [givemoney|give] <amount> [members...]`
-    - *setbalance*  Set the balance of the given members to an amount `rp!economy [setbalance|set] <amount> [members...]`
+    - *givemoney*   Give the members money (Moderators) `rp!givemoney <amount> [members...]`
+    - *setbalance*  Set the balance of the given members to an amount `rp![setbalance|set] <amount> [members...]`
   - *lootbox*    List the current lootboxes `rp![lootbox|lb]`
     - *buy*         Buy a lootbox of the given name `rp!lootbox buy <name>`
     - *create*      Create a new lootbox, under the given `name` for the given cost. 
@@ -101,9 +101,9 @@ a random choice from [banana, banana, orange, orange, orange]
   - *guilds*     List guilds
 #### Inventory:
   - *inventory*  Check your or another users inventory. `rp![inventory|i|inv] [member]`
-    - *give*           Give items ({item}x{#}) to a member; ie: ;give @Henry#6174 pokeballx3 `rp!inventory give <other> [items...]`
-    - *giveitem*       Give an item to a person (Not out of your inventory, must be Bot Moderator) `rp!inventory giveitem <item> <num> [members...]`
-    - *takeitem*       Remove an item from a person's inventory (Must be Bot Moderator) `rp!inventory [takeitem|take] <item> <num> [members...]`
+    - *give*           Give items ({item}x{#}) to a member; ie: ;give @Henry#6174 pokeballx3 `rp!give <other> [items...]`
+    - *giveitem*       Give an item to a person (Not out of your inventory, must be Bot Moderator) `rp!giveitem <item> <num> [members...]`
+    - *takeitem*       Remove an item from a person's inventory (Must be Bot Moderator) `rp![takeitem|take] <item> <num> [members...]`
 #### Misc:
   - *donate*     Donation information
   - *feedback*   Give me some feedback on the bot `rp!feedback <feedback>`
